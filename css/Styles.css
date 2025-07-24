@@ -103,11 +103,9 @@
 	text-align: center;
 }
 
-
-
 .h1-section2 {
 	min-width: 100%;
-	font-size: calc(1.625rem + 4.0vw) !important;
+	font-size: calc(1.0rem + 5.0vw) !important;
     line-height: 0.8 !important;
 	color: #000 !important;
 	margin-bottom: 0.3rem !important;
@@ -116,17 +114,39 @@
 	text-align: center;
 }
 
-.firstcontainer {
-	width: 8% !important;
-	margin-top: 7% !important;
-	padding-bottom: 1% !important;
+.table {
+	width: 50% !important;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 0 !important;
 }
 
-.secondcontainer {
-	width: 6% !important;
-	padding-bottom: 0.5% !important;
+tbody, td, tfoot, th, thead, tr {
+    border: none !important;
 }
 
-.thirdcontainer {
-	width: 8% !important;
+.table-img1 {
+	width: 10vw !important;
 }
+
+.table-img2 {
+	width: 8vw !important;
+}
+
+.table-img3 {
+	width: 10vw !important;
+}
+
+th {
+	width: 20% !important;
+}
+
+.position-wedding {
+	width: 0% !important;
+	font-size: calc( 0rem + 4.0vw) !important;
+    line-height: 1.0 !important;
+	color: #000 !important;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
